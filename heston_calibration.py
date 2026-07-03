@@ -508,7 +508,7 @@ def plot_market_vs_model_smiles(quotes):
 # Run
 # =========================
 
-quotes = pd.read_excel("C:/Users/nwozo/Desktop/CVI/option_df.xlsx")
+quotes = pd.read_excel("quotes.xlsx")
 
 result = calibrate_heston(quotes)
 
